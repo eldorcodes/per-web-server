@@ -1,0 +1,47 @@
+
+li {
+    font-size: 20px;
+}
+#skill-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#skill-row {
+    padding-left: 20px;
+}
+
+#html {
+    width: 70%;
+}
+
+#css {
+    width: 65%;
+}
+
+#script {
+    width: 90%;
+}
+
+#json {
+	width: 100%;
+}
+#mongodb {
+    width: 100%;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.col-sm-3 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid grey;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+
+.progress {
+    margin-top: 30px;
+}
