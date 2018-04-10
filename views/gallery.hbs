@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Eldor Togaymurotov</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+<link rel="stylesheet" href="/css/styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    {{> _navbar}}
+<div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="http://localhost:1987/images/allu.jpg" alt="eldor pic" style="width:100%;" class="img-responsive carousel-pic">
+                <div class="carousel-caption">
+                    <h3>Walking on the beach</h3>
+                    <p>San Francisco Ocean Beach</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="http://localhost:1987/images/eldor.jpg" alt="eldor pic" style="width:100%;" class="img-responsive  carousel-pic">
+                <div class="carousel-caption">
+                    <h3>Eldor Togaymurotov</h3>
+                    <p>With my dog at Home</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="http://localhost:1987/images/eldor2.jpg" alt="Eldor pic" style="width:100%;" class="img-responsive carousel-pic">
+                <div class="carousel-caption">
+                    <h3>San Francisco</h3>
+                    <p>Having fun!</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="http://localhost:1987/images/friends.jpg" alt="my friends" style="width:100%;" class="img-responsive carousel-pic">
+                <div class="carousel-caption">
+                    <h3>Making BBQ</h3>
+                    <p>With friends in Golden Gate Park</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="http://localhost:1987/images/pool.jpg" alt="playing pool" style="width:100%;" class="img-responsive carousel-pic">
+                <div class="carousel-caption">
+                    <h3>Playing billiard</h3>
+                    <p>Family Pool in San Francisco</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="http://localhost:1987/images/ggb.jpg" alt="playing pool" style="width:100%;" class="img-responsive carousel-pic">
+                <div class="carousel-caption">
+                    <h3>Golden Gate Bridge</h3>
+                    <p>San Francisco, California</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="http://localhost:1987/images/hollywood.jpg" alt="playing pool" style="width:100%;" class="img-responsive carousel-pic">
+                <div class="carousel-caption">
+                    <h3>Hollywood</h3>
+                    <p>Los Angeles, California</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+    {{> _footer}}
+</body>
+</html>

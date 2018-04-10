@@ -12,7 +12,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -20,7 +20,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Eldor Togaymurotov</a>
+<a class="navbar-brand" href="/">
+<img src="http://localhost:1987/images/e-logo.gif" class="img-responsive img-circle" width="30px" height="10px;">
+</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
@@ -43,22 +45,39 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/resume">
-                        <i class="fa fa-address-card"></i>
+                    <a href="/gallery">
+                        <i class="fa fa-file-photo-o"></i>
                     </a>
                 </li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-list"></i>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-th"></i>
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="#">Zodiac app</a>
+                            <a href="/movie">
+                                <i class="fa fa-film"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="#">Book finder</a>
+                            <a href="/zodiac"><i class="fa fa-soundcloud"></i></a>
                         </li>
                         <li>
-                            <a href="#">Videos</a>
+                            <a href="/bookfinder"><i class="fa fa-book"></i></a>
+                        </li>
+                        <li>
+                            <a href="/calendar">
+                                <i class="fa fa-calendar"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-phone-alt"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/camera">
+                                <i class="fa fa-video-camera"></i>
+                            </a>
                         </li>
                     </ul>
                 </li>
@@ -66,76 +85,29 @@
             <ul class="nav navbar-nav navbar-right">
                 <li>
                     <a href="#">
-                        <span class="glyphicon glyphicon-user"></span> Sign Up</a>
+                        <span class="glyphicon glyphicon-user"></span></a>
                 </li>
                 <li>
                     <a href="#">
-                        <span class="glyphicon glyphicon-log-in"></span> Login</a>
+                        <span class="glyphicon glyphicon-log-in"></span></a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 <div class="container">
-    <div class="row">
-        <div class="col-md-6" id="mapHolderDiv">
-            <div id="map" style="width:80%;height:500px;"></div>
+<div class="row">
+<div class="col-md-6">
+    <img id="e-logo" src="http://localhost:1987/images/e-logo.gif" class="img-responsive img-circle">
+    <h2 class="welcome-text">Welcome to Eldor!</h2>
+    <h2 class="welcome-text">Worldwide Online Services inc.</h2>
+</div>
+    
+        <div class="col-md-6">
+            <div id="map" style="width:100%;height:400px;"></div>
         </div>
-        <div class="col-md-6" id="eldorinfo">
-        <h2>
-            <span>
-                <i class="fa fa-user"></i>
-            </span> Eldor Togaymurotov</h2>
-        <h2>
-            <span>
-                <i class="fa fa-briefcase"></i>
-            </span> Full-Stack Web Developer</h2>
-        <h2>
-            <span>
-                <i class="fa fa-globe"></i>
-            </span>
-            <a href="http://www.eldor.io">www.eldor.io</a>
-        </h2>
-        <h2>
-            <span>
-                <i class="fa fa-envelope"></i>
-            </span>
-            <a href="#">eldorcodes@gmail.com</a>
-        </h2>
-        <h2>
-            <span>
-                <i class="fa fa-phone"></i>
-            </span>
-            <a href="#">+1 (415) 7028076</a>
-        </h2>
-        <h2>
-            <span>
-                <i class="fa fa-map-marker"></i>
-            </span> Los Angeles, CA, USA 94401</h2>
-            <h3>
-                <span>
-                    <i></i>
-                </span>
-            </h3>
-            <h2>
-                <span>
-                    <a href="https://www.facebook.com/eldor.togaymurotov">
-                        <i class="fa fa-facebook-official"></i>
-                    </a>
-                </span>
-                <span>
-                    <a href="https://www.instagram.com/eldorabdimuminovich/?hl=en">
-                        <i class="fa fa-instagram"></i>
-                    </a>
-                </span>
-                <span>
-                    <a href="https://twitter.com/eldor2887">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                </span>
-            </h2>
-        </div>
-    </div>
+    
+</div>
 </div>
     <script>
          window.onload = setTimeout(myMap, 1)
@@ -154,8 +126,9 @@
 </script>
     <div class="panel-footer">
         <div class="container-fluid">
-            <h3>Eldor Togaymurotov &copy 2018 Copyright all rights reserved.</h3>
+            <p>Eldor Togaymurotov copyright &copy 2018</p>
         </div>
+        
     </div>
 </body>
 </html>

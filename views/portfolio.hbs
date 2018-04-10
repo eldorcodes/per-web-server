@@ -11,9 +11,43 @@
         <link rel="stylesheet" href="/css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        function makeItBigger(x) {
+                x.style.width = '500px';
+                x.style.height = '200px';
+            };
+            function makeItNormal(x) {
+                x.style.width = '300px';
+                x.style.height = '150px';
+            };
+    </script>
 </head>
 <body>
     {{> _navbar}}
+     <div class="container">
+    <div class="row">
+        <h1 id="port-header">My portfolio</h1>
+      <div class="col-md-4">
+        <img onmouseover="makeItBigger(this)" onmouseout="makeItNormal(this)" src="http://localhost:1987/images/poftfolio1.jpg" class="img-responsive port-pic">
+      </div>
+      <div class="col-md-4">
+        <img onmouseover="makeItBigger(this)" onmouseout="makeItNormal(this)" src="http://localhost:1987/images/portfolio2.jpg" class="img-responsive port-pic">
+      </div>
+      <div class="col-md-4">
+        <img onmouseover="makeItBigger(this)" onmouseout="makeItNormal(this)" src="http://localhost:1987/images/port3.png" class="img-responsive port-pic">
+      </div>
+      <div class="col-md-4">
+        <img onmouseover="makeItBigger(this)" onmouseout="makeItNormal(this)" src="http://localhost:1987/images/portfolio4.jpg" class="img-responsive port-pic">
+      </div>
+      <div class="col-md-4">
+        <img onmouseover="makeItBigger(this)" onmouseout="makeItNormal(this)" src="http://localhost:1987/images/bookFinder.png" class="img-responsive port-pic">
+      </div>
+      <div class="col-md-4">
+        <img onmouseover="makeItBigger(this)" onmouseout="makeItNormal(this)" src="http://localhost:1987/images/zodiac.png" class="img-responsive port-pic">
+      </div>
+    </div>
+  </div>
+  {{> _footer}}
 </body>
 
 </html>

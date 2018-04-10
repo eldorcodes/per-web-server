@@ -1,4 +1,48 @@
-
+body {
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+.fa {
+    font-size: 30px;
+    padding: 5px 5px 5px 5px;
+}
+.glyphicon {
+    font-size: 30px;
+}
+.welcome-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
+.panel-footer {
+    background-color: darkslategrey;
+    color: whitesmoke;
+    text-align: right;
+}
+.row {
+    margin-top: 10px;
+    width: auto;
+}
+.col-sm-8 {
+    width: 80%;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+.col-md-4 {
+    width: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.col-md-6 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+}
+.container {
+    margin-top: 45px;
+}
 li {
     font-size: 20px;
 }
@@ -6,6 +50,9 @@ li {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
 
 #skill-row {
     padding-left: 20px;
@@ -37,11 +84,42 @@ h1, h3 {
 .col-sm-3 {
     width: 300px;
     height: 200px;
-    border: 1px solid grey;
     margin-right: 30px;
     margin-bottom: 5px;
+    border: 1px solid black;
 }
 
 .progress {
     margin-top: 30px;
+}
+/* portfolio section */
+#port-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.port-pic {
+    width: 350px;
+    height: 150px;
+}
+
+/*galery*/
+#myCarousel {
+    height: 500px;
+}
+.carousel-inner {
+    height: 500px;
+}
+/*calendar*/
+.col-sm-2 {
+    border: 1px solid black;
+    width: 16%;
+}
+#mapHolderDiv {
+    width: 100%;
+    height: auto;
+    padding-left: 40px;
+}
+img {
+    margin-left: 7px;
 }
