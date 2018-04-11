@@ -1,6 +1,7 @@
 const express = require('express');
 const hbs = require('hbs');
 
+const port = process.env.PORT || 1987;
 const app = express();
 
 app.use(express.static(__dirname + '/public'));
@@ -95,7 +96,6 @@ app.get('/movie', (req, res) => {
     res.render('movie.hbs');
 });
 
-const port = process.env.PORT || 1987;
 
 app.listen(port, () => {
     console.log(`Web Server is up on port ${port}`);
